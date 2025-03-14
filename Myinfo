@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .info {
+            margin-bottom: 10px;
+        }
+        .info span {
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Information</h1>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p class="info"><span>Name:</span> Dnyaneshwar Goykar</p>
+        <p class="info"><span>Age:</span> 25 years</p>
+        <p class="info"><span>Location:</span> Maharastara, India</p>
+        <p class="info"><span>Email:</span> dnya9899@gmail.com</p>
+        <p class="info"><span>Phone:</span> +1 (555) 123-4567</p>
+
+        <h3>Hobbies and Interests</h3>
+        <ul>
+            <li>Reading Books</li>
+            <li>Photography</li>
+            <li>Traveling</li>
+            <li>Programming</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>JAVA</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p class="info"><span>Degree:</span> Bachelor of Technology (CSE)</p>
+        <p class="info"><span>University:</span> Solarpur University , Soalpur</p>
+        <p class="info"><span>Year of Graduation:</span> 2022</p>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch with me, feel free to send an email to <a href="mailto:dnya9899@gmail.com">dnya9899@gmail.com</a>.</p>
+    </section>
+
+</body>
+</html>
